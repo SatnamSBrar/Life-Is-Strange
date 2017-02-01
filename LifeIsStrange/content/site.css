@@ -17,3 +17,38 @@ h1.container {
     margin-top:0px;
     padding-top:5px;
 }
+/*NAVBAR*/
+nav#navvy.navbar.navbar-static-top {
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#FFF6F0;
+    background-color:#6A1525;
+}
+#navvy a {
+    color:#FFF6F0;
+}
+#navvy a:hover {
+    background:none;
+}
+/*BUTTON WHEN SCREEN SHRUNK*/
+button.navbar-toggle {
+    border:1px solid #FFF6F0;
+}
+span.icon-bar {
+    border:1px solid #FFF6F0;
+}
+/*JUMBOTRON TRAILER*/
+.mainSec {
+    background-image:url('../images/junkyard.jpg');
+    margin-top:0px;
+    background-size:cover;
+}
+h1.container#trailer {
+    text-align:right;
+    background-color:rgbA(232,214,207,0.0);
+}
+/*PREIVEW SECTION*/
+.previewSec {
+    margin:auto;
+    height:unset;
+}
